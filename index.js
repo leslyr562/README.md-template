@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const readMeTemplate = require('./Template');
+const generateMarkdown = require('./Template');
 
 const promptInfo = () => {
     return inquirer.prompt([
@@ -60,7 +60,17 @@ const promptInfo = () => {
             type: 'checkbox',
             name: 'license',
             message: 'What license is being used?',
-            choices: ['Apache license 2.0', 'MIT licence', 'BSD 3-Clause "New" or "Revised" license', 'BSD 2-Clause "Simplified" or "FreeBSD" license', 'GNU General Public License (GPL)', 'GNU Library or "Lesser" General Public License (LGPL)', 'Mozilla Public License 2.0', 'Common Development and Distribution License', 'Eclipse Public License version 2.0']
+            choices: [
+                'Apache',
+                'MIT',
+                'BSD 3-Clause',
+                'BSD 2-Clause',
+                'GNU',
+                '(LGPL)',
+                'Mozilla', 
+                'ISC',
+                 'IBM'
+                ]
         },
         {
             type: 'input',
@@ -115,15 +125,15 @@ const promptInfo = () => {
 }
 promptInfo()
     .then(templateData => {
-        return readMeTemplate(templateData);
+        return generateMarkdown(templateData);
     })
     .then(pageREADME => {
-        return writeFile(pageREADME);
+        return init(pageREADME);
     })
 
 
 
-function writeFile (input) {
+function init(input) {
     fs.writeFile('./dist/README.md', input, err => {
         if (err) {
             console.log(err);
