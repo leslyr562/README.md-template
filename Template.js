@@ -9,7 +9,7 @@ function generateMarkdown(data) {
 https://github.com/${data.username}/${data.title}
     
 ## Description 
-    ${data.description} 
+${data.description} 
 
 ## Table of Content
 - [Installation](#installation)

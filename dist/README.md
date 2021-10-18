@@ -5,7 +5,7 @@
 https://github.com/leslyr562/README.md-template
     
 ## Description 
-    This project was intended to generate a README.md file in a way that is clean, efficient and easy for users to use. 
+README.md generator for users to have an easy and efficient README file 
 
 ## Table of Content
 - [Installation](#installation)
@@ -17,17 +17,17 @@ https://github.com/leslyr562/README.md-template
 - [Questions](#questions)
 
 ## Installations
-The following is neccssary to run this application: This github repository would have to be clone in order to have a full working project. Node.js, inquirer and fs would also have to be iinstalled.
+The following is neccssary to run this application: Node inquirer fs
 
 ## Usage
-In order to use this app, In order to get the template working "node index.js" has to be typed on terminal and answer the prompt quesdtions. Final README file will be in dist folder. .
+In order to use this app, In order to get the template working "node index.js" has to be typed on the terminal. After the prompt questions have to be answered according to the statements. Finally final product will be located on the "utils" folder. .
 
 ## License
 This project is licensed under MIT license.
     
 ## Contributing
 This app runs under the following guidelines:
-Github guidelines
+Github
 
 ## Restrictions
 This app has the following restrictions: 
