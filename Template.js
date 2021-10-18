@@ -3,15 +3,15 @@ function generateMarkdown(data) {
 
 
     return `
-    ![License](https://img.shields.io/badge/License-${data.license}-informational)
+![License](https://img.shields.io/badge/License-${data.license}-informational)
 
-    # ${data.title}
-    https://github.com/${data.username}/${data.title}
-
-    ## Description 
+# ${data.title}
+https://github.com/${data.username}/${data.title}
+    
+## Description 
     ${data.description} 
 
-    ## Table of Content
+## Table of Content
     - [Installation](#installation)
     - [Usage](#usage)
     - [License](#license)
@@ -20,32 +20,32 @@ function generateMarkdown(data) {
     - [Test](#test)
     - [Questions](#questions)
 
-    ## Installations
+## Installations
     The following is neccssary to run this application
     ${data.installations}
 
-    ## Usage
+## Usage
     In order to use this app, ${data.usage} .
 
-    ## License
+## License
     This project is licensed under ${data.license} license.
     
-    ## Contributing
-    This app runs under the following guidelines:
-    ${data.contributing}
+## Contributing
+This app runs under the following guidelines:
+${data.contributing}
 
-    ##Restrictions
-    This app has the following restrictions: 
-    ${data.restrictions}
+## Restrictions
+This app has the following restrictions: 
+${data.restrictions}
  
-    ## Test
-    The following is needed to run the test:
-    ${data.test}
+## Test
+The following is needed to run the test:
+${data.test}
     
-    ## Questions
-    If you have any questions about the repo, open an issue or contact:
-    Github: ${data.username}
-    Email: ${data.email}
+## Questions
+If you have any questions about the repo, open an issue or contact:
+Github: ${data.username}
+Email: ${data.email}
     
     `;
 };
