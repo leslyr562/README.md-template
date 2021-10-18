@@ -12,6 +12,13 @@ function generateMarkdown(data) {
     ${data.description} 
 
     ## Table of Content
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Restrictions](#restrictions)
+    - [Test](#test)
+    - [Questions](#questions)
 
     ## Installations
     The following is neccssary to run this application
