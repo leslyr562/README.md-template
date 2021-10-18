@@ -12,13 +12,13 @@ https://github.com/${data.username}/${data.title}
     ${data.description} 
 
 ## Table of Content
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Restrictions](#restrictions)
-    - [Test](#test)
-    - [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Restrictions](#restrictions)
+- [Test](#test)
+- [Questions](#questions)
 
 ## Installations
     The following is neccssary to run this application

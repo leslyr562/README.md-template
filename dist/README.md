@@ -1,46 +1,46 @@
 
-![License](https://img.shields.io/badge/License-Apache-informational)
+![License](https://img.shields.io/badge/License-BSD 2-Clause-informational)
 
-# lesly
-https://github.com/gh/lesly
+# fg
+https://github.com/fg/fg
     
 ## Description 
-    fdhfg 
+    fgd 
 
 ## Table of Content
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Restrictions](#restrictions)
-    - [Test](#test)
-    - [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Restrictions](#restrictions)
+- [Test](#test)
+- [Questions](#questions)
 
 ## Installations
     The following is neccssary to run this application
-    gh
+    df
 
 ## Usage
-    In order to use this app, gfghgf .
+    In order to use this app, df .
 
 ## License
-    This project is licensed under Apache license.
+    This project is licensed under BSD 2-Clause license.
     
 ## Contributing
 This app runs under the following guidelines:
-gh
+
 
 ## Restrictions
 This app has the following restrictions: 
-undefined
+
  
 ## Test
 The following is needed to run the test:
-ghgh
+
     
 ## Questions
 If you have any questions about the repo, open an issue or contact:
-Github: gh
-Email: fg
+Github: fg
+Email: df
     
     
