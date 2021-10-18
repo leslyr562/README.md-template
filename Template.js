@@ -21,14 +21,13 @@ https://github.com/${data.username}/${data.title}
 - [Questions](#questions)
 
 ## Installations
-    The following is neccssary to run this application
-    ${data.installations}
+The following is neccssary to run this application: ${data.installations}
 
 ## Usage
-    In order to use this app, ${data.usage} .
+In order to use this app, ${data.usage} .
 
 ## License
-    This project is licensed under ${data.license} license.
+This project is licensed under ${data.license} license.
     
 ## Contributing
 This app runs under the following guidelines:
@@ -44,8 +43,8 @@ ${data.test}
     
 ## Questions
 If you have any questions about the repo, open an issue or contact:
-Github: ${data.username}
-Email: ${data.email}
+>>Github: ${data.username}
+>>Email: ${data.email}
     
     `;
 };
