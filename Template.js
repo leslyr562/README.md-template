@@ -43,8 +43,8 @@ ${data.test}
     
 ## Questions
 If you have any questions about the repo, open an issue or contact:
->>Github: ${data.username}
->>Email: ${data.email}
+-Github: ${data.username}
+-Email: ${data.email}
     
     `;
 };
