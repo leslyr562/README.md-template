@@ -1,11 +1,11 @@
 
-![License](https://img.shields.io/badge/License-MIT-informational)
+![License](https://img.shields.io/badge/License--informational)
 
-# README.md-template
-https://github.com/leslyr562/README.md-template
+# Note-taker
+https://github.com/leslyr562/Note-taker
     
 ## Description 
-README.md generator for users to have an easy and efficient README file 
+The project was created to allow the user to save notes for feature refrence. The user is also allowed to delete the notes if intended. The user has to create a title for the note and then add a bried description. 
 
 ## Table of Content
 - [Installation](#installation)
@@ -17,17 +17,17 @@ README.md generator for users to have an easy and efficient README file
 - [Questions](#questions)
 
 ## Installations
-The following is neccssary to run this application: Node inquirer fs
+The following is necessary to run this application: User has to have Node.js installed in order to be able to operate the internal applications like: express, path, fs, etc...
 
 ## Usage
-In order to use this app, In order to get the template working "node index.js" has to be typed on the terminal. After the prompt questions have to be answered according to the statements. Finally final product will be located on the "utils" folder. .
+In order to use this app, The app is a note maker app it can be executed on the local host or on the heroku link down below to be able to use it. Once title and note is inserted then the save button should be able to save the note submitted. The note will then appear on the left side of the application. When the note is clicked then it should be displayed. .
 
 ## License
-This project is licensed under MIT license.
+This project is licensed under  license.
     
 ## Contributing
 This app runs under the following guidelines:
-Github
+
 
 ## Restrictions
 This app has the following restrictions: 
@@ -35,7 +35,7 @@ undefined
  
 ## Test
 The following is needed to run the test:
-Node
+
     
 ## Questions
 If you have any questions about the repo, open an issue or contact:

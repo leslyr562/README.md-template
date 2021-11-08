@@ -21,7 +21,7 @@ ${data.description}
 - [Questions](#questions)
 
 ## Installations
-The following is neccssary to run this application: ${data.installations}
+The following is necessary to run this application: ${data.installations}
 
 ## Usage
 In order to use this app, ${data.usage} .
